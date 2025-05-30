@@ -1,0 +1,36 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body {
+    padding: 10%;
+    margin:0;
+    background-color: beige;
+}
+
+a {
+    color: black;
+}
+
+p {
+    padding-left: 1%;
+    padding-right: 1%;
+    text-indent: 20px;
+    line-height: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+    list-style: none;
+}
+
+li {
+  line-height: 1.5em;
+}

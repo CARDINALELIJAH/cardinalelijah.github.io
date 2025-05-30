@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: cardinalelijah.github.io/index.html
