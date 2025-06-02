@@ -65,7 +65,7 @@
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
+.active, .bullfighting, .collapsible:hover{
   background-color: #ccc;
 }
 
@@ -88,6 +88,35 @@
 
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/*Major Writing Assignments*/
+.bullfighting:after {
+  content: "\1F402"; /* Unicode character for "minus" sign (-) */
+}
+.lotf_diary:after {
+  content: "\1F437"; /* Unicode character for "minus" sign (-) */
+}
+.dictator:after {
+  content: "\1F91A"; /* Unicode character for "minus" sign (-) */
+}
+.short_story:after {
+  content: "\1F680"; /* Unicode character for "minus" sign (-) */
+}
+.night:after {
+  content: "\1F391"; /* Unicode character for "minus" sign (-) */
+}
+.podcast:after {
+  content: "\1F34E"; /* Unicode character for "minus" sign (-) */
+}
+.cw_1:after {
+  content: "\1F918"; /* Unicode character for "minus" sign (-) */
+}
+.cw_2:after {
+  content: "\2622"; /* Unicode character for "minus" sign (-) */
+}
+.cw_3:after {
+  content: "\1F940"; /* Unicode character for "minus" sign (-) */
 }
 
 .cover_images {
