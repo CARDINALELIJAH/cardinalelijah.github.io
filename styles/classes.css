@@ -31,6 +31,11 @@
   margin-right: auto;
   width: 50%;
 }
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
 
 
 .diary_satisfy {
@@ -213,7 +218,6 @@
   animation-duration: 1.5s;
 }
 
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
+.avatar {
+		border-radius: 50%;
+	}

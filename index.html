@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="styles/classes.css">
         <link rel="stylesheet" href="styles/elements.css">
         <link rel="stylesheet" href="styles/fonts.css">
+        <link rel="stylesheet" href="styles/rules.css">
 
         <!--Cache Clearing-->
 		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
@@ -23,6 +24,17 @@
     <body>
         <div class="container">
             <img src="images/heading.png" alt="pen writing on paper" style="width:100%;">
+            <div class="top-right" onmouseenter="myFunction()" onmouseleave="myFunction()">
+                <div>
+                    <img src="icons/stitch.avif" class="avatar">
+                </div>
+                <div id="llama">
+                    <img src="icons/llama.jpeg" class="avatar">
+                </div>
+                <div id="uggo">
+                    <img src="icons/ugly.png" class="avatar">
+                </div>
+            </div>
             <div class="centered">
                 <div>
                     <h1 class="title">Honors English 1</h1>
@@ -680,7 +692,7 @@
         </div>
 
         <!--Writing Reflection Pt 1-->
-        <!--Man, I hate this section... it just feels so... egotistical.-->
+        <!--Man, I hate this section... it just feels so... egotistical...-->
         <div style="background-color: white; margin-top: -20px;">
             <h2 style="text-align: center; background-color: gray; padding: 1%;" id="writing_reflection_1">Writing Reflection Pt. I</h2>
             <img src="images/reflection_2.jpg" alt="a person writing on paper" style="width:100%;" class="cover_images">
@@ -782,6 +794,7 @@
         </div>
 
         <script src="scripts/dropdown.js"></script>
+        <script src="scripts/avatars.js"></script>
         <script src="scripts/slideshow.js"></script>
     </body>
 </html>
